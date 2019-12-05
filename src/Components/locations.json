@@ -1,0 +1,49 @@
+ {
+  "data": [
+    {
+      "name": "Dhampur",
+      "zone": "Bijnor",
+      "region": "Uttar Pradesh"
+    },{
+      "name": "Chandpur",
+      "zone": "Bijnor",
+      "region": "Uttar Pradesh"
+    },{
+      "name": "Bijnor",
+      "zone": "Bijnor",
+      "region": "Uttar Pradesh"
+    },{
+      "name": "Nagina",
+      "zone": "Bijnor",
+      "region": "Uttar Pradesh"
+    },{
+      "name": "Najibabad",
+      "zone": "Bijnor",
+      "region": "Uttar Pradesh"
+    },{
+      "name": "Ojo",
+      "zone": "Lagos State",
+      "region": "South West"
+    },
+    {
+      "name": "Moradabad",
+      "zone": "Moradabad",
+      "region": "Moradabad"
+    },
+    {
+      "name": "Moradabad",
+      "zone": "Moradabad",
+      "region": "Moradabad"
+    },
+    {
+      "name": "Bareilly",
+      "zone": "Bareilly",
+      "region": "Bareilly"
+    },
+    {
+      "name": "Bareilly",
+      "zone": "Bareilly",
+      "region": "Bareilly"
+    }
+  ]
+}
