@@ -1,4 +1,4 @@
-import { LOGIN_PENDING, LOGIN_SUCCESS, LOGIN_ERROR, SEARCH_PENDING, SEARCH_SUCCESS, SEARCH_ERROR } from "../actions/types";
+import { PENDING, LOGIN_SUCCESS, ERROR, SEARCH_SUCCESS} from "../actions/types";
 
 const initialState = {
   pending: false,
@@ -8,7 +8,7 @@ const initialState = {
 
 export const HomeReducer = function (state = initialState, action) {
   switch (action.type) {
-  case LOGIN_PENDING:
+  case PENDING:
     return {
       ...state,
       pending: true
@@ -21,17 +21,11 @@ export const HomeReducer = function (state = initialState, action) {
       results: action.payload
     };
 
-  case LOGIN_ERROR:
+  case ERROR:
     return {
       ...state,
       pending: false,
       error: action.error
-    };
-
-  case SEARCH_PENDING:
-    return {
-      ...state,
-      pending: true
     };
 
   case SEARCH_SUCCESS:
@@ -40,14 +34,6 @@ export const HomeReducer = function (state = initialState, action) {
       pending: false,
       results: action.payload
     };
-
-  case SEARCH_ERROR:
-    return {
-      ...state,
-      pending: false,
-      error: action.error
-    };
-
 
   default:
     return state;

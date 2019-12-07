@@ -50,7 +50,9 @@ class Login extends Component {
 
             <label htmlFor="psw"><b>Password</b></label>
             <input type="password" onChange={this.onChange} placeholder="Enter Password" name="birth_year" required />
-            <label htmlFor="psw"><b>{this.props.pending === true ? "Logging..." : "" ? this.props.error : this.props.error}</b></label>
+            <label htmlFor="psw">
+              <b>{this.props.pending === true ? "Logging..." : "" ? this.props.error : this.props.error}</b>
+            </label>
             <button type="submit">Login</button>
 
           </div>
